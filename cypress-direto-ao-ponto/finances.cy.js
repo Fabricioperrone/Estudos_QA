@@ -11,7 +11,6 @@ describe('Transações', function () {
     it('Cadastrar uma entrada', function () {
 
         criarTransacao("Freela", 250)
-    
 
         cy.get('tbody tr td.description').should("have.text", "Freela")
 

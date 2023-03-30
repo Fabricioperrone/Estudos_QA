@@ -1,0 +1,12 @@
+Inicializar um projeto Node
+   npm init --yes
+
+Instalar o Cypress
+   npm install -D cypress  instala a versão mais atual
+   npm install -D cypress@12.5.0  faz a instalação de uma versão espeficífica
+
+Abrir o Cypress com o
+    npx cypress open
+
+Modo headless
+    npx cypress run
